@@ -49,6 +49,13 @@ $(document).ready(function () {
 	$("#menu-mobile-mask, .btn-close").on("click", function () {
 		$("header").removeClass("open-menu");
 	})
+	$("#btn-search").on("click",function(){
+
+		$("header").toggleClass("open-search");
+		$("#input-search-mobile").focus();
+
+
+	})
 
 
 });
