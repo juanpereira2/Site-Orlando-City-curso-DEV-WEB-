@@ -1,3 +1,21 @@
+
+<?php
+require_once("inc/configuration.php");
+
+$sql = new Sql();
+
+$result =  $sql ->query("SELECT * FROM tb_produtos;");
+
+while($row = mysqli_fetch_array($result)){
+
+	var_dump($row);
+
+}
+
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -336,7 +354,7 @@
 
 			<div class="container Copyright-mobile ">
 
-				<p class="pull-left">Copyright © Orlando City Soccer 2016. All rights reserved.</p>
+				<p class="pull-left">Copyright © Orlando City Soccer 2018. All rights reserved.</p>
 				<p class="pull-right text-roxo">Created by Juan Pereira in Software factory Link-Revi </p>
 
 			</div>
