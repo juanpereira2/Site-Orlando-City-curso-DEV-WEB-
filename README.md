@@ -1,2 +1,2 @@
 # Teste 
-Exemplo pratico do curso de desenvolvimento web da udemy pela Hcode
+Exemplo prático do curso de desenvolvimento web da udemy pela Hcode
